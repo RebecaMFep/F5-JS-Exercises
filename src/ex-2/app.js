@@ -10,7 +10,8 @@
 
 const tres = 3 
 const cinco = 5
-const resultado = tres + cincoconst frase = 'La suma de ${tres} + ${cinco} es ${resultado}'
+const resultado = tres + cinco 
+const frase = 'La suma de ${tres} + ${cinco} es ${resultado}'
 
 const divElement = document.getElementById('container')
 
