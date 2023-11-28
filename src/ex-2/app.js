@@ -15,3 +15,13 @@ const resultado = tres + cincoconst frase = 'La suma de ${tres} + ${cinco} es ${
 const divElement = document.getElementById('container')
 
 divElement.innerText = frase
+
+// const tres = 3
+// const cinco = 5
+// const resultado = sum()
+// const frase = tres + cincoconst frase = 'La suma de ${tres} + ${cinco} es ${resultado}'
+
+// function sum() {
+//     const resultado = tres + cinco
+//     return = resultado
+// }
