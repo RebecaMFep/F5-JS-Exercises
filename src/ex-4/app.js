@@ -1,43 +1,22 @@
 // Escribe un programa que pida dos números y escriba “La suma de <numero-uno> con <numero-dos> es <resultado>”.
 
 // 1. Iniciar app 
-// 2. Crear una sección donde se va a mostar el mensaje 
-// 3. Crear dato de los dos números
-// 4 Crear el dato (frase)
-// 5. Crear el dato que recoge la frase 
-// 6. Declarar el elemento "escuchador"
-// 7. Crear una function 
-// 8. Asignar método
+// 2. Obtener los elementos del formulario
+// 3. Convertir la entrada a números enteros
+// 4. Calcular la suma
+// 5. Mostrar el resultado 
 
-// Convertir el input del usuario a un número
-numeroUno = parseFloat(numeroUno);
 
-// Solicitar al usuario que ingrese el segundo número
-var numeroDos = prompt("Ingrese el segundo número:");
 
-// Convertir el input del usuario a un número
-numeroDos = parseFloat(numeroDos);
+function calcularSuma() {
+    
+    var inputNumeroUno = document.getElementById("numeroUno");
+    var inputNumeroDos = document.getElementById("numeroDos");
 
-// Calcular la suma de los dos números
-var resultado = numeroUno + numeroDos;
+    var numeroUno = parseInt(inputNumeroUno.value);
+    var numeroDos = parseInt(inputNumeroDos.value);
 
-// Mostrar el resultado
-console.log("La suma de " + numeroUno + " con " + numeroDos + " es " + resultado)
+    var resultado = numeroUno + numeroDos;
 
-// Solicitar al usuario que ingrese el primer número
-var numeroUno = prompt("Ingrese el primer número:");
-
-// Convertir el input del usuario a un número
-numeroUno = parseFloat(numeroUno);
-
-// Solicitar al usuario que ingrese el segundo número
-var numeroDos = prompt("Ingrese el segundo número:");
-
-// Convertir el input del usuario a un número
-numeroDos = parseFloat(numeroDos);
-
-// Calcular la suma de los dos números
-var resultado = numeroUno + numeroDos;
-
-// Mostrar el resultado
-alert("La suma de " + numeroUno + " con " + numeroDos + " es " + resultado);
+    document.getElementById("resultado").innerText = "La suma de " + numeroUno + " con " + numeroDos + " es " + resultado;
+}
