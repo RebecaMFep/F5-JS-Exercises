@@ -8,3 +8,36 @@
 // 6. Declarar el elemento "escuchador"
 // 7. Crear una function 
 // 8. Asignar método
+
+// Convertir el input del usuario a un número
+numeroUno = parseFloat(numeroUno);
+
+// Solicitar al usuario que ingrese el segundo número
+var numeroDos = prompt("Ingrese el segundo número:");
+
+// Convertir el input del usuario a un número
+numeroDos = parseFloat(numeroDos);
+
+// Calcular la suma de los dos números
+var resultado = numeroUno + numeroDos;
+
+// Mostrar el resultado
+console.log("La suma de " + numeroUno + " con " + numeroDos + " es " + resultado)
+
+// Solicitar al usuario que ingrese el primer número
+var numeroUno = prompt("Ingrese el primer número:");
+
+// Convertir el input del usuario a un número
+numeroUno = parseFloat(numeroUno);
+
+// Solicitar al usuario que ingrese el segundo número
+var numeroDos = prompt("Ingrese el segundo número:");
+
+// Convertir el input del usuario a un número
+numeroDos = parseFloat(numeroDos);
+
+// Calcular la suma de los dos números
+var resultado = numeroUno + numeroDos;
+
+// Mostrar el resultado
+alert("La suma de " + numeroUno + " con " + numeroDos + " es " + resultado);
