@@ -8,22 +8,11 @@
 // 6. Insertar el resultado en la frase 
 // 7. Imprimir en pantalla 
 
-// const tres = 3 
-// const cinco = 5
-// const resultado = tres + cinco 
-// const frase = 'La suma de ${tres} + ${cinco} es ${resultado}'
+const tres = 3 
+const cinco = 5
+const resultado = tres + cinco 
+const frase = `La suma de ${tres} + ${cinco} es ${resultado}`
 
-// const divElement = document.getElementById('container')
+const divElement = document.getElementById('container')
 
-// divElement.innerText = frase
-
- var tres = 3
- var cinco = 5
- var resultado = sum()
- var frase = tres + cinco 
- var frase = 'La suma de ${tres} + ${cinco} es ${resultado}'
-
-function sum() {
-     const resultado = tres + cinco
-     return = resultado
- }
+divElement.innerText = frase
