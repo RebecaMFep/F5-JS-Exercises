@@ -8,13 +8,13 @@
 // 6. Crear una function 
 // 7. Asignar método
 
-const hello = "Hola"
+const hello = "Hola "
 
 other = document.getElementById('username')
 
 function printMessage() {
     const user = other.value;
-    const message = document.getElementById('greet');
+    const message = document.getElementById('sayHello');
 
     message.innerHTML = hello + user;
 

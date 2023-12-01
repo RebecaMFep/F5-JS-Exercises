@@ -10,12 +10,12 @@
 
 function compararNumeros() {
     
-    var inputNumeroUno = document.getElementById("numeroUno");
-    var inputNumeroDos = document.getElementById("numeroDos");
+    const inputNumeroUno = document.getElementById("numeroUno");
+    const inputNumeroDos = document.getElementById("numeroDos");
 
    
-    var numeroUno = parseFloat(inputNumeroUno.value);
-    var numeroDos = parseFloat(inputNumeroDos.value);
+    const numeroUno = parseFloat(inputNumeroUno.value);
+    const numeroDos = parseFloat(inputNumeroDos.value);
 
     
     if (!isNaN(numeroUno) && !isNaN(numeroDos)) {
